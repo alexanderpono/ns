@@ -18,3 +18,15 @@ $this->pageTitle=Yii::app()->name;
 the <a href="http://www.yiiframework.com/doc/">documentation</a>.
 Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
 should you have any questions.</p>
+
+<p>
+   Получение данных при помощи ActiveRecord: <?php echo CHtml::link('db/ar', array('db/ar'), array('target' => 'db/ar')) ?> 
+</p>
+
+<p>
+   Получение данных при помощи конструктора запроса: <?php echo CHtml::link('db/queryBuilder', array('db/queryBuilder'), array('target' => 'db/queryBuilder')) ?> 
+</p>
+
+<p>
+   Получение данных при помощи SQL через DAO: <?php echo CHtml::link('db/sql', array('db/sql'), array('target' => 'db/sql')) ?> 
+</p>
