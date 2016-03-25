@@ -6,7 +6,7 @@ class m160325_204007_create_actor extends CDbMigration
 	{
 	   $this->createTable('actor', array(
       	       'actor_id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT',
-      	       'title' => 'varchar(45) NOT NULL',
+      	       'first_name' => 'varchar(45) NOT NULL',
       	       'last_name' => 'varchar(45) NOT NULL',
       	       'last_update' => 'timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP',
       	       'PRIMARY KEY  (actor_id)',

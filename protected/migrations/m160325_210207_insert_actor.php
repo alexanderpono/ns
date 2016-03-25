@@ -32,7 +32,7 @@ class m160325_210207_insert_actor extends CDbMigration
               
               $this->insert('actor', array(
                   'actor_id' => $id,
-                  'title' => $title,
+                  'first_name' => $title,
                   'last_name' => $last_name,
                   'last_update' => $last_update
               ));
